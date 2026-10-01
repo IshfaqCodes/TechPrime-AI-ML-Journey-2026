@@ -1,0 +1,55 @@
+# Phase 14: Dockerfile for the FastAPI fraud-scoring service (src/main.py).
+# Build:  docker build -f Dockerfile.api -t fraud-api .
+# Run:    docker run -p 8000:8000 fraud-api
+#
+# Multi-stage build: the first stage compiles wheels (lightgbm needs a C++
+# toolchain), the second stage copies only the installed packages, so the
+# final image doesn't carry build-essential around.
+
+FROM python:3.12-slim AS builder
+
+WORKDIR /build
+
+# lightgbm's wheel on some platforms still needs libgomp at runtime and a
+# compiler at build time if no prebuilt wheel matches; cmake/build-essential
+# cover that case without inflating the final image (builder stage only).
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        build-essential \
+        cmake \
+        libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-api.txt .
+RUN pip install --no-cache-dir --prefix=/install -r requirements-api.txt
+
+
+FROM python:3.12-slim
+
+# libgomp1 is lightgbm's runtime OpenMP dependency; it must exist in the
+# final image too, not just the builder.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libgomp1 \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 1000 appuser
+
+COPY --from=builder /install /usr/local
+
+WORKDIR /app
+
+# Only what src/main.py actually needs at runtime: the code, the trained
+# model, and its configs. Not the raw dataset, not the notebooks.
+COPY src/ ./src/
+COPY models/best_supervised_model.pkl \
+     models/risk_scoring_config.pkl \
+     models/scaler_params.json \
+     ./models/
+
+RUN chown -R appuser:appuser /app
+USER appuser
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=4)" || exit 1
+
+CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]

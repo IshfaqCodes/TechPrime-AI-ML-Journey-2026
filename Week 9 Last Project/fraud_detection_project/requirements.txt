@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+imbalanced-learn
+shap
+fastapi
+uvicorn
+streamlit
+mlflow==3.16.1
+joblib
+lightgbm
+httpx
+pytest

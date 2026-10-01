@@ -1,0 +1,14 @@
+# Runtime dependencies for the FastAPI service only (src/main.py).
+# Pinned to the exact versions this project was built and tested against.
+# A separate, smaller list from requirements.txt on purpose: the API image
+# doesn't need jupyter, seaborn, or imbalanced-learn, which only matter for
+# the training notebooks.
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+lightgbm==4.7.0
+shap==0.52.0
+joblib==1.5.3
+fastapi==0.141.1
+pydantic==2.13.5
+uvicorn[standard]==0.54.0

@@ -1,0 +1,16 @@
+notebooks/
+*.ipynb
+.git/
+.gitignore
+.pytest_cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/creditcard.csv
+data/raw/
+mlruns/
+README.md
+INSTRUCTIONS.md
+tests/
+.ipynb_checkpoints/

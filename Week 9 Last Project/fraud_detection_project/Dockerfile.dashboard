@@ -1,0 +1,49 @@
+# Phase 14: Dockerfile for the Streamlit dashboard (src/dashboard.py).
+# Build:  docker build -f Dockerfile.dashboard -t fraud-dashboard .
+# Run:    docker run -p 8501:8501 fraud-dashboard
+#
+# Same multi-stage pattern as Dockerfile.api, plus the test-set CSVs the
+# dashboard's Overview tab and "load random transaction" buttons read from.
+
+FROM python:3.12-slim AS builder
+
+WORKDIR /build
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        build-essential \
+        cmake \
+        libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-dashboard.txt requirements-api.txt ./
+RUN pip install --no-cache-dir --prefix=/install -r requirements-dashboard.txt
+
+
+FROM python:3.12-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libgomp1 \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 1000 appuser
+
+COPY --from=builder /install /usr/local
+
+WORKDIR /app
+
+COPY src/ ./src/
+COPY models/best_supervised_model.pkl \
+     models/risk_scoring_config.pkl \
+     models/scaler_params.json \
+     models/shap_feature_importance.csv \
+     ./models/
+COPY data/processed/X_test.csv data/processed/y_test.csv ./data/processed/
+
+RUN chown -R appuser:appuser /app
+USER appuser
+
+EXPOSE 8501
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health', timeout=4)" || exit 1
+
+CMD ["streamlit", "run", "src/dashboard.py", "--server.address=0.0.0.0", "--server.port=8501"]

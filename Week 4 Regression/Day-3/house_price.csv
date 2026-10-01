@@ -1,0 +1,251 @@
+House_ID,City,Location,Area_sqft,Bedrooms,Bathrooms,Floors,Age,Garage,Location_Score,Price_PKR
+1,Peshawar,University Town,3419,2,1,2,8,0,10,27423000
+2,Peshawar,Hayatabad,1219,6,5,2,2,0,6,13843000
+3,Peshawar,University Town,1752,6,5,1,18,1,8,17254000
+4,Peshawar,Warsak Road,3213,4,3,1,14,1,6,25861000
+5,Peshawar,Warsak Road,1681,4,3,1,13,0,7,15307000
+6,Peshawar,Ring Road,3272,4,3,2,18,0,5,25494000
+7,Peshawar,University Town,3061,4,4,1,3,0,7,25917000
+8,Peshawar,Warsak Road,1126,3,2,2,9,1,6,10952000
+9,Peshawar,University Town,2316,4,3,2,3,2,9,21452000
+10,Peshawar,University Town,3786,3,2,2,13,1,10,30492000
+11,Peshawar,Warsak Road,2128,2,1,1,11,1,5,16876000
+12,Peshawar,Ring Road,1664,6,6,1,16,1,6,16428000
+13,Peshawar,Ring Road,1884,3,2,2,19,1,7,15858000
+14,Peshawar,University Town,1698,3,3,1,2,0,10,16696000
+15,Peshawar,Ring Road,1455,5,4,2,13,2,9,15375000
+16,Peshawar,Warsak Road,1829,6,5,1,18,1,5,16893000
+17,Peshawar,Warsak Road,2002,5,4,2,1,2,9,20044000
+18,Peshawar,University Town,3920,3,2,2,17,2,6,30150000
+19,Peshawar,Hayatabad,2331,3,2,2,16,0,7,18997000
+20,Peshawar,Hayatabad,4399,4,3,1,8,2,5,34483000
+21,Peshawar,Ring Road,3797,5,4,1,5,2,9,32329000
+22,Peshawar,University Town,1476,4,4,1,18,2,10,15072000
+23,Peshawar,Hayatabad,2076,5,5,2,17,1,6,18592000
+24,Peshawar,University Town,1720,2,2,1,19,2,9,15110000
+25,Peshawar,Hayatabad,1702,2,1,1,8,0,7,14504000
+26,Bannu,Mandan,1090,6,5,2,16,0,10,13160000
+27,Bannu,Mandan,4414,6,6,1,16,1,5,35378000
+28,Bannu,Township,1197,5,5,2,14,1,10,13849000
+29,Bannu,Mandan,3476,2,1,2,11,0,6,26412000
+30,Bannu,Domel,1579,6,6,1,14,0,8,16373000
+31,Bannu,Township,1823,2,2,1,2,2,5,15821000
+32,Bannu,Mandan,3886,3,2,2,16,1,8,30382000
+33,Bannu,Domel,4496,2,1,2,1,1,8,35052000
+34,Bannu,Mandan,1968,5,5,1,7,1,5,18236000
+35,Bannu,Cantt,3172,6,5,2,2,0,9,28414000
+36,Bannu,Mandan,4292,6,5,1,17,0,5,34004000
+37,Bannu,Mandan,3237,2,1,2,4,2,9,26529000
+38,Bannu,Domel,3235,2,1,2,19,2,7,24865000
+39,Bannu,Domel,1636,4,3,2,13,0,8,15292000
+40,Bannu,Township,2095,2,1,2,20,2,5,16215000
+41,Bannu,Mandan,3002,3,3,1,12,0,7,24224000
+42,Bannu,Township,1967,3,3,2,20,2,10,17719000
+43,Bannu,Township,4146,6,6,1,5,1,5,34272000
+44,Bannu,Mandan,3840,6,5,2,10,2,10,33230000
+45,Bannu,Township,2204,3,3,2,9,0,10,19748000
+46,Bannu,Domel,2534,4,3,1,11,0,6,21118000
+47,Bannu,Mandan,3836,5,5,1,4,0,9,32522000
+48,Bannu,Domel,947,4,3,2,5,0,7,10729000
+49,Bannu,Township,4482,2,2,1,8,2,7,34614000
+50,Bannu,Mandan,3995,6,6,1,8,0,8,33705000
+51,Mardan,Sheikh Maltoon,901,3,3,2,8,1,10,10897000
+52,Mardan,Baghdada,1242,5,4,2,8,0,7,13234000
+53,Mardan,Baghdada,2050,3,2,1,7,1,7,17860000
+54,Mardan,Par Hoti,4340,2,2,2,17,1,9,33390000
+55,Mardan,Baghdada,2156,2,1,2,6,2,5,17622000
+56,Mardan,Par Hoti,1244,6,6,2,11,1,9,14738000
+57,Mardan,Baghdada,1273,5,4,2,2,2,5,13671000
+58,Mardan,Par Hoti,2929,6,5,2,14,0,7,25273000
+59,Mardan,Par Hoti,3352,4,3,2,17,1,8,27224000
+60,Mardan,Par Hoti,2136,5,5,1,7,1,8,20312000
+61,Mardan,Baghdada,3574,3,3,2,18,0,7,27808000
+62,Mardan,Par Hoti,1660,5,5,2,15,1,6,15820000
+63,Mardan,Par Hoti,2893,5,4,1,10,2,10,25951000
+64,Mardan,Sheikh Maltoon,3336,4,3,1,10,0,6,26802000
+65,Mardan,Baghdada,900,2,1,2,20,0,8,8350000
+66,Mardan,Sheikh Maltoon,4429,6,5,2,16,1,6,35533000
+67,Mardan,Par Hoti,3487,2,1,2,8,0,9,27599000
+68,Mardan,Baghdada,2702,2,1,1,15,0,10,21914000
+69,Mardan,Par Hoti,2975,6,6,2,20,2,8,26125000
+70,Mardan,Baghdada,4202,6,6,1,16,1,6,34194000
+71,Mardan,Sheikh Maltoon,4240,4,4,1,9,1,10,34850000
+72,Mardan,Sheikh Maltoon,1970,3,3,2,11,2,6,17170000
+73,Mardan,Baghdada,1417,3,3,1,7,0,8,13779000
+74,Mardan,Baghdada,2155,6,6,2,2,0,8,21245000
+75,Mardan,Baghdada,3953,6,5,2,16,0,7,32301000
+76,Kohat,Cantt,3886,5,5,1,16,0,8,31732000
+77,Kohat,KDA,2789,2,2,2,13,2,8,22713000
+78,Kohat,Jarma,1322,6,5,2,19,2,5,13474000
+79,Kohat,Cantt,1143,5,4,2,6,0,8,12981000
+80,Kohat,Cantt,2140,3,3,2,11,1,8,18760000
+81,Kohat,Cantt,1833,2,2,1,18,0,6,14671000
+82,Kohat,KDA,3462,2,1,1,8,0,9,27424000
+83,Kohat,KDA,1424,3,2,2,4,2,8,14188000
+84,Kohat,Jarma,3665,4,4,1,20,2,10,30255000
+85,Kohat,Cantt,1269,3,3,1,19,0,9,12203000
+86,Kohat,Jarma,3574,5,5,1,3,2,10,31458000
+87,Kohat,Cantt,1794,2,2,1,19,0,9,15228000
+88,Kohat,Cantt,2554,4,3,2,1,1,5,21858000
+89,Kohat,Jarma,2575,4,4,1,14,0,9,22345000
+90,Kohat,Jarma,3464,4,4,2,14,2,7,28368000
+91,Kohat,Cantt,2120,3,2,2,15,0,9,18190000
+92,Kohat,KDA,3299,5,5,1,16,1,8,27823000
+93,Kohat,Jarma,1668,4,4,2,9,2,7,16146000
+94,Kohat,Cantt,3076,2,1,1,8,2,8,24822000
+95,Kohat,KDA,3074,3,3,2,15,0,7,24518000
+96,Kohat,Cantt,1707,5,4,2,19,1,9,16519000
+97,Kohat,Cantt,2974,4,4,2,12,2,7,25078000
+98,Kohat,KDA,2055,4,3,1,7,1,10,19445000
+99,Kohat,Jarma,2994,3,2,1,16,1,9,24438000
+100,Kohat,KDA,3913,6,6,1,7,1,7,33101000
+101,Swat,Mingora,1534,4,3,1,9,0,9,15158000
+102,Swat,Saidu Sharif,1996,3,3,1,1,2,8,18652000
+103,Swat,Saidu Sharif,2760,5,5,1,2,1,5,24130000
+104,Swat,Mingora,4167,2,2,2,3,2,6,32459000
+105,Swat,Saidu Sharif,1411,6,6,1,8,0,9,15917000
+106,Swat,Saidu Sharif,3241,6,5,2,15,1,9,28187000
+107,Swat,Mingora,2556,4,3,1,7,2,7,22252000
+108,Swat,Mingora,3505,2,1,1,6,2,6,27365000
+109,Swat,Mingora,810,5,5,2,10,0,7,10320000
+110,Swat,Mingora,3695,4,4,1,8,1,8,30505000
+111,Swat,Mingora,1270,6,5,1,9,0,5,13410000
+112,Swat,Saidu Sharif,1479,4,4,2,4,1,10,15873000
+113,Swat,Mingora,2448,4,4,2,3,2,8,22326000
+114,Swat,Mingora,3808,4,4,1,3,0,10,32046000
+115,Swat,Saidu Sharif,4164,4,3,1,16,2,7,32878000
+116,Swat,Saidu Sharif,1543,6,6,2,3,1,8,17091000
+117,Swat,Saidu Sharif,2165,4,3,1,11,1,7,19035000
+118,Swat,Saidu Sharif,3513,5,4,2,3,1,7,29681000
+119,Swat,Mingora,1274,5,4,2,14,0,9,13638000
+120,Swat,Saidu Sharif,2281,6,6,2,2,0,9,22427000
+121,Swat,Mingora,1336,4,4,2,4,0,10,14672000
+122,Swat,Mingora,1448,4,3,2,3,0,8,14676000
+123,Swat,Saidu Sharif,1281,3,3,2,17,2,8,12527000
+124,Swat,Mingora,4219,5,5,1,15,2,8,34533000
+125,Swat,Saidu Sharif,1580,6,5,1,9,1,9,16980000
+126,Abbottabad,Mandian,1894,2,2,2,19,2,6,15428000
+127,Abbottabad,Mandian,2629,6,6,2,11,2,8,24333000
+128,Abbottabad,Jinnahabad,2118,3,2,2,8,1,7,18266000
+129,Abbottabad,Jinnahabad,3850,5,5,2,5,1,6,31850000
+130,Abbottabad,Mandian,2857,6,6,1,15,0,5,24349000
+131,Abbottabad,Mandian,3759,3,3,1,3,1,7,30353000
+132,Abbottabad,Mandian,3352,5,4,2,18,1,10,28404000
+133,Abbottabad,Mandian,3743,5,4,1,8,2,6,30841000
+134,Abbottabad,Jinnahabad,3858,2,2,1,4,1,10,31226000
+135,Abbottabad,Mandian,2026,2,1,2,2,1,7,17392000
+136,Abbottabad,Jinnahabad,2564,3,2,2,19,2,6,20518000
+137,Abbottabad,Jinnahabad,1517,2,2,1,16,2,6,12999000
+138,Abbottabad,Mandian,2688,4,4,2,1,1,10,24546000
+139,Abbottabad,Mandian,3038,3,2,2,12,2,10,25526000
+140,Abbottabad,Mandian,2537,4,4,2,7,1,5,21569000
+141,Abbottabad,Mandian,1771,5,5,2,10,0,7,17047000
+142,Abbottabad,Mandian,833,6,5,2,10,0,6,10581000
+143,Abbottabad,Jinnahabad,3407,3,3,1,4,2,7,28019000
+144,Abbottabad,Mandian,4030,5,4,2,5,0,7,32960000
+145,Abbottabad,Mandian,3861,5,4,1,5,2,9,32777000
+146,Abbottabad,Mandian,2855,4,3,2,16,1,5,22915000
+147,Abbottabad,Mandian,2718,2,1,1,13,2,5,21066000
+148,Abbottabad,Mandian,4038,5,4,2,18,0,7,32106000
+149,Abbottabad,Jinnahabad,3555,4,4,2,4,2,8,30005000
+150,Abbottabad,Mandian,902,6,6,1,3,2,10,13404000
+151,Dera Ismail Khan,University Road,2037,5,4,1,2,0,8,19519000
+152,Dera Ismail Khan,University Road,1275,2,1,1,13,1,10,12265000
+153,Dera Ismail Khan,Cantt,3843,6,6,1,14,2,8,32621000
+154,Dera Ismail Khan,University Road,3321,5,5,1,12,0,8,28057000
+155,Dera Ismail Khan,University Road,1767,4,3,2,18,2,5,15359000
+156,Dera Ismail Khan,Cantt,2430,4,3,1,15,0,10,21310000
+157,Dera Ismail Khan,Cantt,3419,6,5,1,11,0,9,29513000
+158,Dera Ismail Khan,Cantt,1640,2,1,1,8,1,9,14870000
+159,Dera Ismail Khan,Cantt,811,4,3,1,18,1,5,8467000
+160,Dera Ismail Khan,University Road,3507,2,1,1,12,0,5,26259000
+161,Dera Ismail Khan,Cantt,1513,4,3,1,14,2,10,15361000
+162,Dera Ismail Khan,Cantt,1060,5,5,2,17,2,8,12280000
+163,Dera Ismail Khan,Cantt,2863,3,2,2,15,2,5,22591000
+164,Dera Ismail Khan,University Road,2761,5,5,1,16,2,5,23357000
+165,Dera Ismail Khan,University Road,4483,2,2,1,3,0,9,35171000
+166,Dera Ismail Khan,University Road,3393,6,6,2,20,2,8,29051000
+167,Dera Ismail Khan,Cantt,2870,6,6,1,4,2,8,26510000
+168,Dera Ismail Khan,University Road,2649,3,3,2,15,1,10,22643000
+169,Dera Ismail Khan,Cantt,1189,4,4,2,9,1,10,13493000
+170,Dera Ismail Khan,Cantt,2742,2,1,1,3,1,10,23234000
+171,Dera Ismail Khan,University Road,3826,4,3,1,19,2,10,31202000
+172,Dera Ismail Khan,University Road,1300,5,5,2,2,1,7,14510000
+173,Dera Ismail Khan,Cantt,1224,6,5,1,16,0,7,13198000
+174,Dera Ismail Khan,Cantt,4262,6,6,1,9,2,8,35904000
+175,Dera Ismail Khan,University Road,4261,6,5,2,1,0,10,36407000
+176,Nowshera,Akbarpura,3922,4,4,2,1,0,9,32684000
+177,Nowshera,Akbarpura,3492,5,4,1,1,0,8,29774000
+178,Nowshera,Cantt,2519,5,5,1,12,1,9,22943000
+179,Nowshera,Akbarpura,3242,2,1,1,6,2,10,26724000
+180,Nowshera,Cantt,1134,4,4,2,16,2,8,12218000
+181,Nowshera,Cantt,1918,3,2,2,14,0,10,17146000
+182,Nowshera,Cantt,3579,6,6,2,2,0,9,31513000
+183,Nowshera,Cantt,1024,2,1,2,7,0,7,9828000
+184,Nowshera,Akbarpura,2143,2,1,2,14,0,8,17471000
+185,Nowshera,Akbarpura,2981,3,3,1,13,2,8,24707000
+186,Nowshera,Cantt,876,5,4,2,19,1,10,11002000
+187,Nowshera,Cantt,3422,5,5,1,13,0,6,28094000
+188,Nowshera,Akbarpura,4082,6,6,2,3,1,6,34264000
+189,Nowshera,Cantt,2584,6,6,1,13,1,6,23078000
+190,Nowshera,Akbarpura,2164,3,2,1,17,2,7,18158000
+191,Nowshera,Akbarpura,2238,3,2,1,5,1,6,19016000
+192,Nowshera,Cantt,3267,3,2,1,16,1,10,26649000
+193,Nowshera,Akbarpura,4412,6,6,2,5,1,8,37034000
+194,Nowshera,Akbarpura,2611,4,4,1,12,2,7,22537000
+195,Nowshera,Akbarpura,2691,5,4,1,12,1,10,24197000
+196,Nowshera,Akbarpura,4339,2,2,2,19,2,8,33143000
+197,Nowshera,Akbarpura,4117,6,5,2,20,1,5,32769000
+198,Nowshera,Akbarpura,2645,2,2,1,17,2,5,20525000
+199,Nowshera,Cantt,1814,5,5,1,12,1,8,17708000
+200,Nowshera,Akbarpura,2474,4,3,2,3,1,9,22358000
+201,Charsadda,Shabqadar,3578,5,5,2,20,0,5,28396000
+202,Charsadda,Umerzai,3186,3,3,2,13,0,7,25442000
+203,Charsadda,Shabqadar,3089,5,5,1,17,0,9,26383000
+204,Charsadda,Shabqadar,2282,2,2,2,6,0,8,19254000
+205,Charsadda,Umerzai,1586,3,2,1,3,1,9,15492000
+206,Charsadda,Shabqadar,3957,6,5,2,20,0,6,31749000
+207,Charsadda,Shabqadar,1464,3,2,2,2,1,10,15008000
+208,Charsadda,Umerzai,3747,3,3,2,15,0,7,29229000
+209,Charsadda,Shabqadar,4112,5,4,2,19,1,7,32754000
+210,Charsadda,Umerzai,3987,5,5,1,7,2,7,33169000
+211,Charsadda,Shabqadar,1013,5,5,1,17,0,5,10651000
+212,Charsadda,Shabqadar,3925,3,3,2,17,0,5,29735000
+213,Charsadda,Shabqadar,1709,5,5,1,14,0,9,16933000
+214,Charsadda,Umerzai,2331,3,3,1,12,0,7,19527000
+215,Charsadda,Shabqadar,1205,4,3,1,2,1,10,13845000
+216,Charsadda,Umerzai,4204,3,3,2,20,0,5,31478000
+217,Charsadda,Umerzai,1848,3,2,2,4,1,7,16656000
+218,Charsadda,Umerzai,1299,2,1,2,20,1,5,10443000
+219,Charsadda,Shabqadar,4227,5,4,1,5,1,5,33939000
+220,Charsadda,Umerzai,3318,4,3,2,6,2,9,28256000
+221,Charsadda,Shabqadar,2277,2,1,2,16,0,7,17969000
+222,Charsadda,Umerzai,1838,2,2,1,12,0,9,16026000
+223,Charsadda,Shabqadar,3811,4,3,1,12,2,10,31587000
+224,Charsadda,Shabqadar,1517,5,5,1,5,0,5,15019000
+225,Charsadda,Shabqadar,2001,3,2,1,2,1,9,18467000
+226,Haripur,Sirikot,2431,6,6,2,2,2,7,23277000
+227,Haripur,Khalabat,2262,2,2,2,4,1,8,19454000
+228,Haripur,Khalabat,3844,5,5,2,6,1,7,32038000
+229,Haripur,Khalabat,4065,6,6,1,14,0,9,34075000
+230,Haripur,Khalabat,4168,3,3,2,4,0,10,33846000
+231,Haripur,Khalabat,2010,4,4,2,6,2,7,18750000
+232,Haripur,Sirikot,2631,2,2,2,9,2,5,20987000
+233,Haripur,Khalabat,3549,5,5,1,1,0,5,29523000
+234,Haripur,Sirikot,1317,2,1,2,12,1,9,12329000
+235,Haripur,Sirikot,1428,5,5,2,15,0,9,14896000
+236,Haripur,Sirikot,2303,5,5,2,8,0,10,21811000
+237,Haripur,Khalabat,1562,5,5,1,9,1,6,15554000
+238,Haripur,Sirikot,3306,4,4,1,4,0,8,27862000
+239,Haripur,Sirikot,1507,5,4,2,12,2,9,15809000
+240,Haripur,Sirikot,3020,4,4,1,6,1,5,25020000
+241,Haripur,Khalabat,1623,3,2,2,1,1,8,15591000
+242,Haripur,Khalabat,4091,6,5,1,3,1,10,35277000
+243,Haripur,Sirikot,3744,5,5,2,19,0,7,30228000
+244,Haripur,Sirikot,3431,2,2,2,17,1,9,27027000
+245,Haripur,Sirikot,3420,6,5,1,14,2,5,28510000
+246,Haripur,Sirikot,2922,3,3,1,6,1,7,24284000
+247,Haripur,Khalabat,2925,4,3,2,7,2,6,24535000
+248,Haripur,Sirikot,3360,4,3,1,19,2,6,26740000
+249,Haripur,Sirikot,3498,6,6,1,1,0,10,31316000
+250,Haripur,Sirikot,3958,6,6,1,19,1,8,32876000

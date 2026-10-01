@@ -1,0 +1,9 @@
+"r"	Read (default)
+"w"	Write (creates or overwrites file)
+"a"	Append (adds data at the end)
+"x"	Create a new file (error if it already exists)
+"r+"	Read and Write
+"w+"	Write and Read
+"a+"	Append and Read
+"rb"	Read binary file
+"wb"	Write binary file

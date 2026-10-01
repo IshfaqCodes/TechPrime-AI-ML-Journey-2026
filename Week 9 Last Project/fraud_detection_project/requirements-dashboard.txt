@@ -1,0 +1,6 @@
+# Runtime dependencies for the Streamlit dashboard (src/dashboard.py).
+# Same base as requirements-api.txt (the dashboard imports src/main.py directly)
+# plus streamlit and matplotlib for the charts.
+-r requirements-api.txt
+streamlit==1.64.0
+matplotlib==3.10.8
