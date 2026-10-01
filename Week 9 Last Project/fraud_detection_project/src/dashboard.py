@@ -25,6 +25,7 @@ import pandas as pd
 import shap
 import streamlit as st
 
+from src.landing import render_landing
 from src.main import FEATURES, risk_band, risk_score
 
 MODELS = ROOT / "models"
@@ -82,6 +83,11 @@ def risk_band_array(scores):
 
 # --------------------------------------------------------------------------- page
 art, missing = load_artifacts()
+
+# Landing screen: shown first on every new session, until the user clicks "Open dashboard".
+if art is not None and not st.session_state.get("entered"):
+    render_landing(art["cfg"])  # calls st.stop() at the end
+
 st.title("🛡️ Real-Time Credit Card Fraud Detection")
 
 if art is None:
@@ -94,6 +100,7 @@ if art is None:
 model, explainer, scaler = art["model"], art["explainer"], art["scaler"]
 
 with st.sidebar:
+    st.button("Back to home", on_click=lambda: st.session_state.update(entered=False))
     st.header("Risk thresholds")
     st.caption("Loaded from `models/risk_scoring_config.pkl`. Override to explore what-ifs.")
     t_low = st.number_input("T_LOW (Low → Medium)", 0.0001, 0.99, float(art["cfg"]["t_low"]), 0.005, format="%.4f")
